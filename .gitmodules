@@ -1,0 +1,3 @@
+[submodule "ai-discord-bot"]
+	path = ai-discord-bot
+	url = https://github.com/rogerahuntley/ai-discord-bot
