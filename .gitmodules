@@ -1,3 +1,7 @@
 [submodule "ai-discord-bot"]
 	path = ai-discord-bot
 	url = https://github.com/rogerahuntley/ai-discord-bot
+
+[submodule "dog-bribes-discord-bot"]
+	path = dog-bribes-discord-bot
+	url = https://github.com/rogerahuntley/dog-bribes-discord-bot

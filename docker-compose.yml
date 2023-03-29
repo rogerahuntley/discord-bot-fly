@@ -1,0 +1,20 @@
+version: '3'
+services:
+  bot:
+    build: .
+    image: steal-dog-multi-discord-bot
+    container_name: steal-dog-multi-discord-bot
+    environment:
+      - NODE_ENV=development
+      - AI_DISCORD_BOT_TOKEN=${AI_DISCORD_BOT_TOKEN}
+      - AI_DISCORD_CLIENT_SECRET=${AI_DISCORD_CLIENT_SECRET}
+      - AI_DISCORD_CLIENT_ID=${AI_DISCORD_CLIENT_ID}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DB_DISCORD_BOT_TOKEN=${DB_DISCORD_BOT_TOKEN}
+      - DB_DISCORD_CLIENT_SECRET=${DB_DISCORD_CLIENT_SECRET}
+      - DB_DISCORD_CLIENT_ID=${DB_DISCORD_CLIENT_ID}
+      - DB_SITE=${DB_SITE}
+      - DB_EMAIL=${DB_EMAIL}
+      - DB_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - ./db:/db

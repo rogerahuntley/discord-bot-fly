@@ -1,0 +1,12 @@
+# flyctl launch added from .gitignore
+**/db
+**/.env
+
+# flyctl launch added from ai-discord-bot/.gitignore
+ai-discord-bot/**/db
+ai-discord-bot/**/node_modules/
+ai-discord-bot/**/.env
+
+# flyctl launch added from dog-bribes-discord-bot/.gitignore
+ai-discord-bot/**/node_modules/
+ai-discord-bot/**/.env

@@ -1,0 +1,15 @@
+# fly.toml file generated for steal-dog-discord-bot on 2023-03-29T11:28:33-04:00
+
+app = "steal-dog-discord-bot"
+kill_timeout = 0
+primary_region = "yyz"
+
+[build]
+  dockerfile = "dockerfile"
+
+[env]
+  NODE_ENV = "production"
+
+[mounts]
+  source = "steal_dog_db"
+  destination = "/db"
