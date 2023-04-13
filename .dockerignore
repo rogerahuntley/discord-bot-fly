@@ -1,6 +1,7 @@
 # flyctl launch added from .gitignore
 **/db
 **/.env
+**/node_modules
 
 # flyctl launch added from ai-discord-bot/.gitignore
 ai-discord-bot/**/db

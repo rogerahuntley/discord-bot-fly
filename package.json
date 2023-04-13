@@ -1,0 +1,7 @@
+{
+  "workspaces": [
+    "ai-discord-bot",
+    "ai-discord-bot/lib/ai",
+    "dog-bribes-discord-bot"
+  ]
+}
